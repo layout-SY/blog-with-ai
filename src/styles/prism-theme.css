@@ -1,0 +1,70 @@
+/* Minimal Prism.js theme - replaceable */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #e2e8f0;
+  background: #1e293b;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.875rem;
+  line-height: 1.7;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  tab-size: 2;
+  hyphens: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #64748b;
+}
+
+.token.punctuation {
+  color: #94a3b8;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol {
+  color: #f472b6;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin {
+  color: #a5f3fc;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string {
+  color: #fbbf24;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: #818cf8;
+}
+
+.token.function,
+.token.class-name {
+  color: #34d399;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: #fb923c;
+}
